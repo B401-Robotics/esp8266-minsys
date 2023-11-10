@@ -29,11 +29,11 @@ Gambar dibawah merupakan design hardware ESP8266 Minimum System yang akan diguna
                 </tr>
 </table>
 
-Untuk dokumentasi hardware, silahkan lihat [/hardware](hardware/readme.md)
+Untuk dokumentasi hardware, silahkan lihat [/hardware](hardware/README.md)
 
 ## Firmware
 
-Untuk dokumentasi firmware, silahkan lihat [/firmware](firmware/readme.md)
+Untuk dokumentasi firmware, silahkan lihat [/firmware](firmware/README.md)
 
 ## Kontribusi
 
