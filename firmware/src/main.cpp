@@ -23,9 +23,9 @@
 /* Private macro -------------------------------------------------------------*/
 #define NETMASK_24 IPAddress(255, 255, 255, 0)
 #define LED_PIN 2
-#define RGB_LED_PIN_RED 15
-#define RGB_LED_PIN_GREEN 12
-#define RGB_LED_PIN_BLUE 13
+#define RGB_LED_PIN_RED 13
+#define RGB_LED_PIN_GREEN 14
+#define RGB_LED_PIN_BLUE 12
 #define BUTTON_PIN 3
 
 /* USER CODE BEGIN PM */
@@ -91,6 +91,10 @@ void loop()
     digitalWrite(LED_PIN, !digitalRead(LED_PIN));
   }
   /* USER CODE END 3 */
+
+  /* USER CODE BEGIN 4 */
+
+  /* USER CODE END 4 */
 }
 
 void init_pin()
@@ -105,6 +109,6 @@ void init_pin()
   digitalWrite(RGB_LED_PIN_BLUE, LOW);
 }
 
-/* USER CODE BEGIN 4 */
+/* USER CODE BEGIN 5 */
 
-/* USER CODE END 4 */
+/* USER CODE END 5 */
