@@ -9,7 +9,24 @@
 
 Gambar dibawah merupakan schematic ESP8266 Minimum System yang akan digunakan pada workshop.
 
-![Schematic](./schematic.png)
+![Schematic](../images/schematic.png)
+
+## PCB
+
+Gambar dibawah merupakan design hardware ESP8266 Minimum System yang akan digunakan pada workshop.
+
+<table>
+    <tr>
+        <th>Jalur PCB</th>
+        <th>Hasil Gerber</th>
+        <th>Hasil Render 3D</th>
+    </tr>
+    <tr>
+        <td><img src="../images/PCB_Routing.png" width="200px"></td>
+        <td><img src="../images/PCB_Gerber.png" width="200px"></td>
+        <td><img src="../images/PCB_Komponen.png" width="200px"></td>
+    </tr>
+</table>
 
 ## Bill of Material
 

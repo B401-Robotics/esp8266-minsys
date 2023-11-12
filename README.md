@@ -1,42 +1,35 @@
 # **ESP8266 Minimum System**
 
-_Workshop Telematika 2023_
-
 <img src="https://www.its.ac.id/komputer/wp-content/uploads/sites/28/2018/03/image10.png" alt="Teknik Komputer ITS" width="150" height="150">
 
 ## **Deskripsi**
 
 Dokumentasi ini dibuat untuk memudahkan peserta workshop dalam memahami dan mengembangkan ESP8266 Minimum System pada Workshop Telematika 2023.
 
-Diagram Fitur ESP8266 Minimum System dan PCB dapat dilihat pada gambar berikut.
+Silahkan lihat dokumentasi lengkap di:
 
-![ESP8266 Minimum System](images/preview.png)
+- [Hardware](hardware/)
+- [Firmware](firmware/)
 
-## Hardware
+## **Fitur**
 
-Gambar dibawah merupakan design hardware ESP8266 Minimum System yang akan digunakan pada workshop.
+Berikut merupakan fitur-fitur yang ada pada ESP8266 Minimum System Workshop Telematika 2023:
 
-<table>
-                <tr>
-                    <th>Jalur PCB</th>
-                    <th>Hasil Gerber</th>
-                    <th>Gambar 3D</th>
-                </tr>
-                <tr>
-                    <td><img src="./images/routing.png" width="200px"></td>
-                    <td><img src="./images/gerber.png" width="200px"></td>
-                    <td><img src="./images/3d.png" width="200px"></td>
-                </tr>
-</table>
+- ESP-12F (ESP8266)
+- UART Pin (5V, RX, TX, GND) untuk flashing firmware
+- Regulator 3.3V
+- 9 Breakout Pin digital dan analog
+- USB Type-C sebagai power supply
+- LED indikator power
+- 1 Button yang bisa diprogram
+- LED RGB yang bisa diprogram
 
-Untuk dokumentasi hardware, silahkan lihat [/hardware](hardware/README.md)
+![ESP8266 Minimum System](images/fitur.png)
 
-## Firmware
+## **Kontribusi**
 
-Untuk dokumentasi firmware, silahkan lihat [/firmware](firmware/README.md)
+Kami sangat terbuka terhadap kontribusi dari semua pihak. Jika Anda ingin berkontribusi dengan memperbaiki atau melengkapi dokumentasi ini, silahkan lakukan `pull request` terhadap repository ini.
 
-## Kontribusi
+## **Lisensi**
 
-Kami sangat terbuka terhadap kontribusi dari semua pihak. Jika Anda ingin berkontribusi dengan memperbaiki atau melengkapi template ini, silakan buat pull request ke repositori template kami.
-
-
+Dokuemntasi ini dilisensikan di bawah [MIT License](LICENSE).
