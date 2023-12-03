@@ -1,19 +1,20 @@
-# **Dokumentasi Hardware**
+# **Hardware**
 
-## Software
+## Persyaratan
 
 - [Eagle](https://www.autodesk.com/products/eagle/overview) (Untuk membuka file .sch dan .brd)
 - [Fusion 360](https://www.autodesk.com/products/fusion-360/overview) (Alternatif)
 
 ## Schematic
 
-Gambar dibawah merupakan schematic ESP8266 Minimum System yang akan digunakan pada workshop.
+Berikut adalah gambar schematic untuk ESP8266 Minimum System yang akan digunakan dalam workshop. Silakan simpan gambar ini untuk referensi Anda setelah workshop berakhir.
 
 ![Schematic](../images/schematic.png)
 
-## PCB
 
-Gambar dibawah merupakan design hardware ESP8266 Minimum System yang akan digunakan pada workshop.
+## Layout
+
+Berikut ini adalah gambar layout desain hardware ESP8266 Minimum System yang akan digunakan dalam workshop. Tabel di bawah menampilkan rincian jalur PCB, hasil dari file Gerber, dan desain 3D untuk memberikan gambaran menyeluruh tentang struktur hardware yang digunakan.
 
 <table>
     <tr>

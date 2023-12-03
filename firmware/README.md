@@ -38,7 +38,9 @@ pinMode(3, OUTPUT);
 2. Masuk ke Bootloader ESP32 dengan menggunakan Timing diaragam sebagai berikut: `(Kedua tombol di pull-up)`  
    ![Timing Diagram](../images/Timing_diagram1.jpeg)
    
-   cara melakukannya dengan menahan tombol boot dan menekan satu kali tombol reset.
+   ```
+   Cara melakukannya dengan menahan tombol boot dan menekan satu kali tombol reset.
+   ```
 3. Upload program menggunakan PlatformIO ( `Ctrl` + `Alt` + `U` )
 
 ## Wiring ESP dengan USB-TTL
