@@ -46,8 +46,16 @@ Berikut ini adalah gambar layout desain hardware ESP8266 Minimum System yang aka
 |     F1     |    1     |  1206   | 750mA |         Fuse          |
 |     J1     |    1     |    -    |  6P   |      USB Type-C       |
 
-## SMD Led Polarity
+## SMD Polarity
 
 SMD Led memiliki 2 kaki, yaitu kaki anoda dan kaki katoda. Perhatikan gambar di bawah ini untuk mengetahui kaki mana yang merupakan kaki anoda dan kaki katoda.
 
 ![SMD Led Polarity](../images/led_katoda.jpg)
+
+Capacitor Tantalum merupakan salah satu jenis capacitor polar. Perhatikan gambar di bawah ini untuk mengetahui kaki mana yang merupakan kaki anoda(+).
+
+![Capacitor Tantalum Polarity](../images/capacitor_katoda.png)
+
+Untuk melihat component apa saja yang polaritasnya perlu diperhatikan, silakan lihat gambar di bawah ini.
+
+![Polar Component](../images/polar_component.png)
