@@ -48,8 +48,6 @@ Berikut ini adalah gambar layout desain hardware ESP8266 Minimum System yang aka
 
 ## SMD Led Polarity
 
-```
 SMD Led memiliki 2 kaki, yaitu kaki anoda dan kaki katoda. Perhatikan gambar di bawah ini untuk mengetahui kaki mana yang merupakan kaki anoda dan kaki katoda.
-```
 
 ![SMD Led Polarity](../images/led_katoda.jpg)
