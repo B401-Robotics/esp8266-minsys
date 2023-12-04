@@ -29,7 +29,8 @@
 #define BUTTON_PIN 3
 
 /* USER CODE BEGIN PM */
-#define AP_SSID "Kelompok_01"
+#define AP_SSID "Kelompok_99"
+#define AP_PASSWORD "12345678"
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -57,7 +58,7 @@ void setup()
 
   WiFi.mode(WIFI_AP);
   WiFi.softAPConfig(esp_32_ip, esp_32_ip, NETMASK_24);
-  WiFi.softAP(AP_SSID);
+  WiFi.softAP(AP_SSID, AP_PASSWORD);
 
   // if DNSServer is started with "*" for domain name, it will reply with provided IP to all DNS request
   dnsServer.start(DNS_PORT, "*", esp_32_ip);
