@@ -41,7 +41,7 @@ Berikut ini adalah gambar layout desain hardware ESP8266 Minimum System yang aka
 |     D1     |    1     |  5050   |  RGB  |          LED          |
 |     D2     |    1     |  0805   |  Red  |          LED          |
 |    SW1     |    1     |    -    |   -   |    Push Button (1)    |
-| SW2 - SW3  |    1     |    -    |   -   |    Push Button (2)    |
+| SW2 - SW3  |    2     |    -    |   -   |    Push Button (2)    |
 |    IC1     |    1     | SOT-223 |  3V3  | Voltage Regulator 3V3 |
 |     F1     |    1     |  1206   | 750mA |         Fuse          |
 |     J1     |    1     |    -    |  6P   |      USB Type-C       |
