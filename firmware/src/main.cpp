@@ -23,10 +23,10 @@
 /* Private macro -------------------------------------------------------------*/
 #define NETMASK_24 IPAddress(255, 255, 255, 0)
 #define LED_PIN 2
-#define RGB_LED_PIN_RED 13
-#define RGB_LED_PIN_GREEN 14
-#define RGB_LED_PIN_BLUE 12
-#define BUTTON_PIN 3
+#define LED_RED 13
+#define LED_GREEN 14
+#define LED_BLUE 12
+#define BUTTON_ 3
 
 /* USER CODE BEGIN PM */
 #define AP_SSID "Kelompok_99"
@@ -41,10 +41,13 @@ ESP8266WebServer webServer(80);
 
 /* USER CODE BEGIN PV */
 uint8_t led_color_rgb[3] = {0, 0, 0};
+uint8_t btn_val = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void init_pin();
+void set_led_color();
+void reset_led_color();
 
 /* USER CODE BEGIN PFP */
 
@@ -75,6 +78,8 @@ void setup()
 
   /* USER CODE BEGIN 2 */
   pinMode(LED_PIN, OUTPUT);
+
+  init_pin();
   /* USER CODE END 2 */
 }
 
@@ -93,21 +98,37 @@ void loop()
   }
   /* USER CODE END 3 */
 
-  /* USER CODE BEGIN 4 */
+  btn_val = digitalRead(BUTTON_);
+
+  /* USER CODE BEGIN 4 */ // Masukkan yang kalian program di wokwi di sini
 
   /* USER CODE END 4 */
 }
 
+void set_led_color()
+{
+  analogWrite(LED_RED, led_color_rgb[0]);
+  analogWrite(LED_GREEN, led_color_rgb[1]);
+  analogWrite(LED_BLUE, led_color_rgb[2]);
+}
+
+void reset_led_color()
+{
+  analogWrite(LED_RED, 0);
+  analogWrite(LED_GREEN, 0);
+  analogWrite(LED_BLUE, 0);
+}
+
 void init_pin()
 {
-  pinMode(RGB_LED_PIN_RED, OUTPUT);
-  pinMode(RGB_LED_PIN_GREEN, OUTPUT);
-  pinMode(RGB_LED_PIN_BLUE, OUTPUT);
-  pinMode(BUTTON_PIN, INPUT);
+  pinMode(LED_RED, OUTPUT);
+  pinMode(LED_GREEN, OUTPUT);
+  pinMode(LED_BLUE, OUTPUT);
+  pinMode(BUTTON_, INPUT);
   delay(1);
-  digitalWrite(RGB_LED_PIN_RED, LOW);
-  digitalWrite(RGB_LED_PIN_GREEN, LOW);
-  digitalWrite(RGB_LED_PIN_BLUE, LOW);
+  digitalWrite(LED_RED, LOW);
+  digitalWrite(LED_GREEN, LOW);
+  digitalWrite(LED_BLUE, LOW);
 }
 
 /* USER CODE BEGIN 5 */
