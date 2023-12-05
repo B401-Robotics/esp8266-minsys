@@ -26,7 +26,7 @@
 #define LED_RED 13
 #define LED_GREEN 14
 #define LED_BLUE 12
-#define BUTTON_ 3
+#define BUTTON_ 15
 
 /* USER CODE BEGIN PM */
 #define AP_SSID "Kelompok_99"
